@@ -39,6 +39,7 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
       with:
-       Dsonar.projectKey=${{ secrets.MQTT_PROJECT_KEY }}
-       Dsonar.organization=${{ MQTT_PROJECT_ORGANIZATION }}
+        args:
+         Dsonar.projectKey=${{ secrets.MQTT_PROJECT_KEY }}
+         Dsonar.organization=${{ MQTT_PROJECT_ORGANIZATION }}
       
