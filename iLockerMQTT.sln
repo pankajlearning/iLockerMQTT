@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iLockerMQTT.DomainModels", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iLockerMQTT.Client", "iLockerMQTT.Client\iLockerMQTT.Client.csproj", "{2A4DB67B-15E3-418B-85E1-B49ABB2C716F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iLockerMQTT.API", "iLockerMQTT.API\iLockerMQTT.API.csproj", "{1D1E9D92-3503-4593-A350-CBD9F4FE2649}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{2A4DB67B-15E3-418B-85E1-B49ABB2C716F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2A4DB67B-15E3-418B-85E1-B49ABB2C716F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2A4DB67B-15E3-418B-85E1-B49ABB2C716F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D1E9D92-3503-4593-A350-CBD9F4FE2649}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D1E9D92-3503-4593-A350-CBD9F4FE2649}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D1E9D92-3503-4593-A350-CBD9F4FE2649}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D1E9D92-3503-4593-A350-CBD9F4FE2649}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
