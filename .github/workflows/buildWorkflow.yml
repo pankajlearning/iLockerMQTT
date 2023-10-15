@@ -41,5 +41,5 @@ jobs:
       with:
         args:
          Dsonar.projectKey=${{ secrets.MQTT_PROJECT_KEY }}
-         Dsonar.organization=${{ MQTT_PROJECT_ORGANIZATION }}
+         Dsonar.organization=${{ secrets.MQTT_PROJECT_ORGANIZATION }}
       
